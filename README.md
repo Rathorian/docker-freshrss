@@ -22,5 +22,8 @@ FreshRSS is an RSS aggregator and reader. It allows you to read and follow sever
 |       **UID**       |    freshrss group id    |      991      |
 |       **GID**       |    freshrss group id    |      991      |
 
+#### Volumes
+- **/freshrss/data**
+
 #### Ports
 - **8888** : reverse proxy!
