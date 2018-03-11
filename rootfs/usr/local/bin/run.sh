@@ -12,5 +12,6 @@ if [ ! -d /etc/php7/session ]; then
   mkdir /etc/php7/session;
 fi
 
+[ ! "$(ls -A /freshrss/data)" ] && cp -R /freshrss/data_tmp/* /freshrss/data/
 chown -R $UID:$GID /etc/nginx /etc/php7 /etc/s6.d /var/log /var/lib/nginx /freshrss /tmp
 exec su-exec $UID:$GID /bin/s6-svscan /etc/s6.d

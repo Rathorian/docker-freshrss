@@ -40,6 +40,7 @@ RUN apk -U add --no-cache \
     s6 \
  && mkdir freshrss && cd freshrss \
  && wget -qO- https://github.com/FreshRSS/FreshRSS/archive/${FRESHRSS_VER}.tar.gz | tar xz --strip 1 \
+ && mv data data_tmp
  && apk del tar \
  && rm -rf /var/cache/apk/*
 
