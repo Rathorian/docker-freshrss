@@ -46,7 +46,7 @@ RUN apk -U add --no-cache \
 
 COPY rootfs /
 
-RUN chmod +x /usr/local/bin/run.sh /etc/s6.d/*/*
+RUN chmod +x /usr/local/bin/run.sh /etc/s6.d/*/* /etc/s6.d/.s6-svscan/*
 
 VOLUME /freshrss/data
 
