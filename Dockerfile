@@ -31,8 +31,10 @@ RUN apk -U add --no-cache \
     php7-pdo_sqlite \
     php7-pgsql \
     php7-session \
+    php7-simplexml \
     php7-sqlite3 \
     php7-xml \
+    php7-xmlreader \
     php7-zip \
     php7-zlib \
     sqlite \
