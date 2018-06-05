@@ -1,6 +1,6 @@
 FROM xataz/alpine:3.7
 
-ARG FRESHRSS_VER=1.10.2
+ARG FRESHRSS_VER=1.11.0
 
 ENV UID=991 GID=991 \
     UPLOAD_MAX_SIZE=10M \
@@ -56,6 +56,6 @@ EXPOSE 8888
 
 LABEL description="A free, self-hostable aggregator" \
       version="FreshRSS v${FRESHRSS_VER}" \
-      maintainer="contact@rathorian.fr"
+      maintainer="rathorian@gmail.com"
 
 CMD ["run.sh"]
