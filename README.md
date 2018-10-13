@@ -8,7 +8,7 @@
 FreshRSS is an RSS aggregator and reader. It allows you to read and follow several news websites at a glance without the need to browse from one website to another.
 
 #### Features
-- Based on Alpine Linux from [xataz/alpine](https://github.com/xataz/docker-alpine)
+- Based on Alpine Linux
 - Latest release from [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS)
 
 #### Build-time variables
