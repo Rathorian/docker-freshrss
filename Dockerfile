@@ -1,4 +1,4 @@
-FROM xataz/alpine:3.7
+FROM alpine:3.8
 
 ARG FRESHRSS_VER=1.11.2
 
