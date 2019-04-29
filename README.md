@@ -20,7 +20,7 @@ FreshRSS is an RSS aggregator and reader. It allows you to read and follow sever
 | **UPLOAD_MAX_SIZE** |   maximum upload size   |      10M      |
 |   **MEMORY_LIMIT**  |     php memory limit    |      128M     |
 |   **CRON_PERIOD**   |  feed update frequency  |      15m      |
-|     **TIMEZONE**    |         time zone       |  Europe/Paris |
+|       **TZ**        |         time zone       |  Europe/Paris |
 |       **UID**       |    freshrss group id    |      991      |
 |       **GID**       |    freshrss group id    |      991      |
 
