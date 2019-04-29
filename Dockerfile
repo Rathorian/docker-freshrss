@@ -6,7 +6,7 @@ ENV UID=991 GID=991 \
     UPLOAD_MAX_SIZE=10M \
     MEMORY_LIMIT=128M \
     CRON_PERIOD=15m \
-    TIMEZONE=Europe/Paris
+    TZ=Europe/Paris
 
 RUN apk -U add --no-cache \
     tar \
@@ -56,6 +56,6 @@ EXPOSE 8888
 
 LABEL description="A free, self-hostable aggregator" \
       version="FreshRSS v${FRESHRSS_VER}" \
-      maintainer="contact@rathorian.net"
+      maintainer="contact@rathorian.fr"
 
 CMD ["run.sh"]
