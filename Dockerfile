@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.11
 
 ARG FRESHRSS_VER=1.15.3
 
@@ -8,7 +8,7 @@ ENV UID=991 GID=991 \
     CRON_PERIOD=15m \
     TZ=Europe/Paris
 
-RUN apk -U add --no-cache \
+RUN apk add --no-progress --no-cache \
     tar \
     tzdata \
     ca-certificates \
@@ -56,6 +56,6 @@ EXPOSE 8888
 
 LABEL description="A free, self-hostable aggregator" \
       version="FreshRSS v${FRESHRSS_VER}" \
-      maintainer="contact@rathorian.fr"
+      maintainer="rathorian@gmail.com"
 
 CMD ["run.sh"]
