@@ -1,6 +1,8 @@
 ## rathorian/docker-freshrss
 
-[![](https://images.microbadger.com/badges/image/rathorian/docker-freshrss.svg)](https://microbadger.com/images/rathorian/docker-freshrss "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/rathorian/docker-freshrss.svg)](https://microbadger.com/images/rathorian/docker-freshrss "Get your own version badge on microbadger.com")
+[![](https://img.shields.io/docker/pulls/rathorian/docker-freshrss)](https://hub.docker.com/r/rathorian/docker-freshrss)
+[![](https://img.shields.io/docker/stars/rathorian/docker-freshrss)](https://hub.docker.com/r/rathorian/docker-freshrss)
+
 
 ![](https://i.goopics.net/71XpR.png)
 
